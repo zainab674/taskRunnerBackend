@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#messages {
+    border: 1px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#messages div {
+    margin-bottom: 5px;
+}
+
+#messageForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+#messageForm input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#chat {
+    display: none;
+}

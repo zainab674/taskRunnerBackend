@@ -1,0 +1,10 @@
+export declare class UserReportDetailsDto {
+    submitted: {
+        name: string;
+        email: string;
+    };
+    reported: {
+        name: string;
+        email: string;
+    };
+}
